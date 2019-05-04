@@ -1,4 +1,4 @@
-<!-- https://docs.docker.com/install/linux/docker-ce/ubuntu/ -->
+- Refference: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 ## Update package index
 >sudo apt-get update
 
