@@ -34,12 +34,12 @@ def permute(resource, startIndex, endIndex, canRearrangement):
             swap(resource, i, startIndex)
             canRearrangement = permute(resource, startIndex + 1, endIndex, canRearrangement)
             swap(resource, i, startIndex)
-            return canRearrangement
-
+            if canRearrangement: break
+        return canRearrangement
 def main():
-    stringarr = ["aba", 
-    "bbb", 
-    "bab"]
+    stringarr = ["ab", 
+ "bb", 
+ "aa"]
     print(stringsRearrangement(stringarr))
     
 
