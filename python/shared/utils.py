@@ -11,6 +11,3 @@ def permute(string, start_index, end_index):
             permute(string, start_index + 1, end_index)
             swap(string, i, start_index)
 
-
-def print_result(content):
-    print(content)
