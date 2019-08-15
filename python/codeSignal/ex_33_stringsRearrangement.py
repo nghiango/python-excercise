@@ -1,7 +1,11 @@
 # https://app.codesignal.com/arcade/intro/level-7/PTWhv2oWqd6p4AHB9
+from shared.utils import *
+
+
 def stringsRearrangement(inputArray: list):
     canRearrangement = permute(inputArray, 0, len(inputArray) - 1, False)
     return canRearrangement
+
 
 def isDifferentByOneCharacter(string, otherString):
     acc = 0
@@ -12,17 +16,14 @@ def isDifferentByOneCharacter(string, otherString):
         return True
     return False
 
+
 def isAllElementsDifferByOneCharacter(arr: list):
-    isSatisfyAll = True
     for i in range(len(arr)):
-        if (i+1) < len(arr):
-            isSatisfyAll = isDifferentByOneCharacter(arr[i], arr[i+1])
-            if isSatisfyAll == False:
+        if (i + 1) < len(arr):
+            if not isDifferentByOneCharacter(arr[i], arr[i + 1]):
                 return False
     return True
 
-def swap(resource, currentIndex, changedInex):
-    resource[currentIndex], resource[changedInex] = resource[changedInex], resource[currentIndex]
 
 def permute(resource, startIndex, endIndex, canRearrangement):
     if canRearrangement:
@@ -34,13 +35,16 @@ def permute(resource, startIndex, endIndex, canRearrangement):
             swap(resource, i, startIndex)
             canRearrangement = permute(resource, startIndex + 1, endIndex, canRearrangement)
             swap(resource, i, startIndex)
-            if canRearrangement: break
+            if canRearrangement:
+                break
         return canRearrangement
+
+
 def main():
-    stringarr = ["ab", 
- "bb", 
- "aa"]
-    print(stringsRearrangement(stringarr))
-    
+    stringArr = ["ab",
+                 "bb",
+                 "aa"]
+    print(stringsRearrangement(stringArr))
+
 
 main()
