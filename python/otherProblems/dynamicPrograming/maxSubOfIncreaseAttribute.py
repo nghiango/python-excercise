@@ -1,0 +1,2 @@
+
+print('Xin chao')
