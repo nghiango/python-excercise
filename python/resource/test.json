@@ -1,0 +1,22 @@
+{
+	"shared": {
+		"document": {
+			"description": {
+				"doc01": "doc01 description",
+				"doc02": "doc02 description",
+				"doc03": "doc03 description"
+			},
+			"state": {
+				"cancelled": "Cancelled",
+				"documentReceive": "Document received",
+				"documentGenerated": "Document generated",
+				"customerPending": "Customer pending",
+				"generationPending": "Generation pending",
+				"uploadPending": "Upload pending"
+			}
+		},
+		"subject": {
+			"math": "math"
+		}
+	}
+}
