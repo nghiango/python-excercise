@@ -32,21 +32,25 @@ def replaceValue(originalDic, newDic):
     return originalDic
 
 
+def buildNestedNode(keyArr, newDictionary, value, index):
+    if index == (len(keyArr) - 1):
+        newDictionary[keyArr[index]] = value
+        return
+    if keyArr[index] in newDictionary:
+        pass
+    else:
+        newDictionary[keyArr[index]] = {}
+    buildNestedNode(keyArr, newDictionary[keyArr[index]], value, index + 1)
+
+
 def buildJson(dic):
     newDictionary = {}
     for key in dic:
         keyArr = str(key).split('.')
-        previousKey = keyArr[0]
-        for i in range(len(keyArr)):
-            if i == (len(keyArr) - 1):
-                newDictionary[i] = dic[key]
-            else:
-                if keyArr[i] in newDictionary:
-                    print(keyArr[i])
-                else:
-                    newDictionary[keyArr[i]] = {keyArr[i+1]: ''}
-
-    print(newDictionary)
+        buildNestedNode(keyArr, newDictionary, dic[key], 0)
+    with open('D:/resource/data.json', 'w') as outfile:
+        json.dump(newDictionary, outfile, indent=4)
+    print(json.dumps(newDictionary, indent=4))
 
 
 originalFileDataJson = json.loads(originalFileData)
@@ -60,5 +64,3 @@ newDic = {}
 printAllKeyValue(newFileDataJson, prefix, newDic)
 
 buildJson(replaceValue(originalDic, newDic))
-
-
