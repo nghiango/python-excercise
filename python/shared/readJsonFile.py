@@ -1,9 +1,9 @@
 import json
 
-with open('../resource/test.json', 'r') as originalFile:
+with open('../resource/test.json', 'r', encoding='utf8') as originalFile:
     originalFileData = originalFile.read()
 
-with open('../resource/test-edit.json', 'r') as newFile:
+with open('../resource/test-edit.json', 'r', encoding='utf8') as newFile:
     newFileData = newFile.read()
 
 
@@ -11,13 +11,13 @@ def remove_last_char(string: str):
     return string[:-1]
 
 
-def printAllKeyValue(dataJson, prefix, jsonValueMap):
+def buildDictionary(dataJson, prefix, jsonValueMap):
     temp = prefix
     for key in dataJson:
         try:
             if len(dataJson[key]) > 0:
                 prefix += key + '.'
-                printAllKeyValue(dataJson[key], prefix, jsonValueMap)
+                buildDictionary(dataJson[key], prefix, jsonValueMap)
                 prefix = temp
         except:
             prefix = remove_last_char(prefix)
@@ -27,7 +27,7 @@ def printAllKeyValue(dataJson, prefix, jsonValueMap):
 
 def replaceValue(originalDic, newDic):
     for key in newDic:
-        if len(originalDic[key]) > 0:
+        if key in originalDic:
             originalDic[key] = newDic[key]
     return originalDic
 
@@ -48,19 +48,18 @@ def buildJson(dic):
     for key in dic:
         keyArr = str(key).split('.')
         buildNestedNode(keyArr, newDictionary, dic[key], 0)
-    with open('D:/resource/data.json', 'w') as outfile:
-        json.dump(newDictionary, outfile, indent=4)
-    print(json.dumps(newDictionary, indent=4))
+    with open('D:/resource/data.json', 'w', encoding='utf8') as outfile:
+        json.dump(newDictionary, outfile, indent=4, ensure_ascii=False)
+    print(json.dumps(newDictionary, indent=4, ensure_ascii=False))
 
 
 originalFileDataJson = json.loads(originalFileData)
 prefix = ''
 originalDic = {}
-printAllKeyValue(originalFileDataJson, prefix, originalDic)
+buildDictionary(originalFileDataJson, prefix, originalDic)
 
 newFileDataJson = json.loads(newFileData)
 prefix = ''
 newDic = {}
-printAllKeyValue(newFileDataJson, prefix, newDic)
-
+buildDictionary(newFileDataJson, prefix, newDic)
 buildJson(replaceValue(originalDic, newDic))
