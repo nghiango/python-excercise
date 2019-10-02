@@ -62,4 +62,5 @@ newFileDataJson = json.loads(newFileData)
 prefix = ''
 newDic = {}
 buildDictionary(newFileDataJson, prefix, newDic)
+
 buildJson(replaceValue(originalDic, newDic))
