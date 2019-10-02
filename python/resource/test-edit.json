@@ -1,0 +1,844 @@
+{
+	"components": {
+		"accountCompliance": {
+			"contactMode": "Tipo di contatto",
+			"currentSegmentPrivateBanking": "Segmento di clientela",
+			"details": "Dettagli",
+			"financialSourceOfFunds": "Origine finanziaria del capitale",
+			"geographicalDestination": "Target geografico",
+			"geographicalSourceOfFunds": "Origine geografica del capitale",
+			"jointAccountType": "Tipo di conto congiunto",
+			"netAssetValue": "Net Asset Value (CHF)",
+			"operationalSourceOfFunds": "Origine operativa del capitale",
+			"title": "Compliance"
+		},
+		"accountDetails": {
+			"activationLetterPrintAutomatically": "Stampare automaticamente la lettera di attivazione",
+			"employeeType": "Tipo di impiegato",
+			"relationshipManager": "Rappresentante del servizio clienti",
+			"reportingCurrency": "Moneta di riferimento",
+			"responsibleRole": "Team responsabile",
+			"title": "Informazioni generali"
+		},
+		"accountHolder": {
+			"birthdate": "Data di nascita",
+			"domicileCountry": "Paese di origine",
+			"firstName": "Nome",
+			"lastName": "Cognome",
+			"salutation": "Saluto",
+			"salutations": {
+				"mr": "Signor",
+				"mr_and_mrs": "Signor e Signora",
+				"mrs": "Signora",
+				"mrs_and_mr": "Signora e Signor"
+			}
+		},
+		"address": {
+			"alternativeTitle": "Titolo",
+			"city": "città",
+			"coAddr": "c/o",
+			"country": "Paese",
+			"firm": "Società",
+			"firstName": "Nome",
+			"lastName": "Cognome",
+			"poBox": "Casella postale",
+			"street": "Via",
+			"streetNumber": "Numero civico",
+			"title": "Saluto",
+			"zipCode": "Codice postale"
+		},
+		"approvalOverlay": {
+			"comment": "Commento",
+			"title": "Richiedere l'approvazione"
+		},
+		"approvalOverview": {
+			"approvalComment": "Commento di approvazione:",
+			"approvalRequestedDialog": {
+				"boardMemberMessage": "L'approvazione del membro del comitato è stata richiesta con successo.",
+				"countryManagementMessage": "Approvazione richiesta dalla Country Management.",
+				"onboardingComitteeMessage": "Approvazione del comitato di bordo con successo.",
+				"title": "Approvazione richiesta"
+			},
+			"boardApprovalButton": "Richiedere l'approvazione dei membri della GL",
+			"boardApprovalHeader": "Membro della direzione generale",
+			"correspondingTaskInResumedDialog": {
+				"message": "L'attività interessata è già stata aggiunta. Al momento non è possibile richiedere nuovamente l'approvazione.",
+				"title": "Compito registrato"
+			},
+			"countryManagerApprovalButton": "Richiedere l'approvazione da parte del Country Management Board",
+			"countryManagerApprovalHeader": "Country Management Board",
+			"onboardingCommitteeApprovalBtn": "Richiedere l'approvazione del comitato di apertura conto",
+			"onboardingCommitteeApprovalHeader": "Comitato di apertura conto",
+			"onboardingTeamHeader": "Onboarding Team",
+			"requestApprovalAgain": "Richiedi di nuovo l'approvazione",
+			"requestComment": "Richiedi un commento:"
+		},
+		"countryManagement": {
+			"labelBusinessKind": "Motivo dell'apertura di una relazione d'affari e tipo di attività (ad esempio investimenti, finanziamenti, proprietà immobiliari)",
+			"labelClientEvv": "Il cliente è gestito da un EVV?",
+			"labelContactMade": "Come è nato il contatto?",
+			"labelEvvDescripton": "Se sì, quale eVV?",
+			"labelFinancingAmount": "Quali sono i finanziamenti previsti?",
+			"labelInitiativeAccount": "Chi ha preso l'iniziativa di aprire un conto?",
+			"title": "Country Management"
+		},
+		"creditCard": {
+			"validDate": "data <br /> valida",
+			"warranty": "Garanzia"
+		},
+		"debitCard": {
+			"cardNumber": "Numero di carta",
+			"geoblocking": "GeoBlocking (Regioni bloccate)",
+			"iban": "IBAN (numero di conto)",
+			"personChosen": "Seleziona le persone",
+			"validDate": "data <br /> valida"
+		},
+		"determinationRiskCategory": {
+			"annualTransactionVolume": "Volume annuale delle transazioni",
+			"assetUnderManagement": "Risorse gestite previste",
+			"calculatedRiskCategory": "Categoria di rischio calcolata",
+			"cashDepositAtOpening": "Quantità di deposito in contanti all'apertura",
+			"declarationToFIU": "Rapporto di sospetto al CRF",
+			"frozenAssets": "Beni congelati",
+			"goldAndPreciousMetal": "Oro e metalli preziosi",
+			"hitOnAList": "Hit on a List",
+			"inquiryByAJudge": "Indagine da parte di un giudice",
+			"privateAccount": "Conto cifrato",
+			"safeRental": "Locazione safe",
+			"taxStatement": "Dichiarazione fiscale",
+			"title": "Calcolo del rischio",
+			"totalScore": "Risultato globale",
+			"typeOfIdentification": "Tipo di identificazione",
+			"typeOfTransactions": "Tipo di transazioni"
+		},
+		"documentApprovalOverview": {
+			"buttons": {
+				"activation": "attivazione parziale"
+			},
+			"name": "Cognome"
+		},
+		"dossierOverview": {
+			"columnLabel": {
+				"dossierName": "Nome dossier",
+				"nr": "No.",
+				"rm&Creator": "RM & creatore",
+				"status": "Stato"
+			},
+			"copy": "Copia",
+			"delete": "Cancellare",
+			"loadMoreDossiers": "Caricare più fascicoli",
+			"sortBy": "Ordina per:"
+		},
+		"informationSidebar": {
+			"activities": "Attività",
+			"notes": "Note",
+			"tasks": "Compiti"
+		},
+		"mailingInstruction": {
+			"anotherAddress": "Altro indirizzo",
+			"correspondenceLanguage": "Lingua di corrispondenza",
+			"domicileAddress": "Indirizzo del domicilio {firstName} {lastName}",
+			"medium": "Medio",
+			"title": "Mailing",
+			"useDefaultMailingInstrucion": "Utilizzare l'indirizzo esistente"
+		},
+		"mainHeader": {
+			"dossierOverview": "Riepilogo dossier",
+			"tasks": "Compiti"
+		},
+		"newDocumentOverlay": {
+			"choose": "Selezionare",
+			"search": "Ricerca",
+			"title": "Selezionare i documenti"
+		},
+		"noteTab": {
+			"comment": "Lascia un commento qui"
+		},
+		"occupation": {
+			"employer": "Datore di lavoro",
+			"employmentKind": "Tipo di impiego",
+			"occupation": "Professione",
+			"occupationDetails": "Dettagli professione",
+			"sourceOfIncome": "Fonte di reddito"
+		},
+		"onboardingCommittee": {
+			"economicBenefit": "Benefici economici attesi",
+			"reasonInvolvment": {
+				"entryCountryList": "Apertura dei rapporti commerciali con domicilio del cliente resp. il beneficiario effettivo in un paese della lista arancione, rossa o nera del gruppo",
+				"fatcaCase": "Casi FATCA secondo l'istruzione 312 par. 4.3.2, 4.3.3, 4.4.2, 4.5.1 e 4.5.3",
+				"highRiskRelationship": "Rapporti GmeR come richiesto ai sensi della direttiva 250, par. 5.4.1",
+				"otherExceptions": "Tutte le altre eccezioni relative alla politique sectorielle banque privée del gruppo",
+				"pepRelationship": "Rapporti PEP secondo la Direttiva 250, par. 3.1.4 e la politique sectorielle banque privée del gruppo",
+				"recommendationCompliance": "Sulla conformità delle raccomandazioni",
+				"title": "Motivo per l'inclusione del comitato di apertura conto"
+			},
+			"title": "Commissione d'apertura"
+		},
+		"personApprovalOverview": {
+			"avaloq": "Avaloq",
+			"customer": "Cliente",
+			"docM": "Punteggio AML DOCM",
+			"duplicateCheck": "assegno duplicato",
+			"worldCheck": "Dow Jones"
+		},
+		"personCommunication": {
+			"kind": {
+				"business": "Affari",
+				"other": "Altro",
+				"private": "Privato"
+			},
+			"medium": {
+				"email": "Indirizzo e-mail",
+				"fax": "Numero di fax",
+				"mobile": "Cellulare",
+				"phone": "Telefono"
+			},
+			"title": "Comunicazione"
+		},
+		"personCompliance": {
+			"nonDomUk": "Non domiciliato in UK, solo residente",
+			"sourceIncome": "Fonte di reddito",
+			"sourceIncomeDetails": "Dettagli",
+			"substraPresent": "Substancial Presence Test",
+			"tin": "TIN",
+			"tinCountryOfIssue": "TIN Paese di emissione",
+			"title": "Compliance",
+			"usGreenCard": "Titolare della Green Card",
+			"usPerson": "US Person",
+			"usTax": "La persona è tassabile negli Stati Uniti?",
+			"worldCheckRemark": "Remark  Dow Jones",
+			"worldCheckRule": "Hit Dow Jones"
+		},
+		"personElounge": {
+			"add": "Aggiungi eLounge",
+			"title": "eLounge"
+		},
+		"personIdentification": {
+			"countryOfIssue": "Paese di emissione",
+			"countryOfRelevance": "Paese con rilevanza (Conferma di residenza)",
+			"dateOfIssue": "Data di emissione",
+			"identificationNo": "Numero di identificazione",
+			"identificationType": "Tipo di identificazione",
+			"isAuthorized": "Visto originale",
+			"noExpirationDate": "Nessuna data di scadenza",
+			"title": "Identificazione",
+			"validUntil": "Valido fino al"
+		},
+		"personOverview": {
+			"accountHolder": {
+				"addButtonLabel": "Elaborare il titolare del conto",
+				"title": "Titolare del conto"
+			},
+			"active": "Attivo",
+			"avaloq": "Avaloq",
+			"check": "Controllare il risultato",
+			"checks": "Controlli",
+			"domicile": "Domicilio",
+			"duplicateCheck": "Assegno duplicato",
+			"job": "Professione",
+			"person": "Persona",
+			"powerOfAttorney": {
+				"addButtonLabel": "Aggiungere procure",
+				"title": "Procuratore"
+			},
+			"reDuplicateCheck": "Ripeti il controllo duplicato",
+			"worldCheck": "Dow Jones"
+		},
+		"personalDetails": {
+			"alternativeTitle": "Titolo",
+			"authsign": {
+				"collectively": "Collettivo",
+				"individually": "Individuale",
+				"title": "Poteri di firma"
+			},
+			"birthdate": "Data di nascita",
+			"countryOfBirth": "Paese di nascita",
+			"firstName": "Nome",
+			"gender": "Sesso",
+			"headLine": "Informazioni generali",
+			"jointsign": "Poteri di firma su",
+			"language": "Lingua",
+			"lastName": "Cognome",
+			"materialStatus": "Stato civile",
+			"middleName": "Secondo nome",
+			"nationality": "Nazionalità",
+			"personAuthId": {
+				"attorneyElounge": "Procuratore eLounge",
+				"attorneyIndividualSignature": "Procuratore con firma individuale",
+				"attorneyJointSignature": "Procuratore con firma collettiva",
+				"title": "Tipo di autorizzazione"
+			},
+			"placeOfBirth": "Luogo di nascita",
+			"secondNationality": "Seconda nazionalità",
+			"subAuthorisation": "Diritto di conferire sotto procura",
+			"thirdNationality": "Terza nazionalità",
+			"title": "Saluto"
+		},
+		"productApprovalOverview": {
+			"container": "Container",
+			"currency": "valuta",
+			"product": "Prodotto",
+			"products": "prodotti"
+		},
+		"productCreation": {
+			"addCard": "Aggiungere una carta",
+			"addContainer": "Aggiungere un container",
+			"addProduct": "Aggiungere un prodotto",
+			"addStrategy": "Aggiungere una strategia",
+			"mainAccount": "Main account",
+			"product": {
+				"additionalDocuments": "Documenti aggiuntivi",
+				"fidu": "Contratto di pegno",
+				"hongkong": "Waiver Hong Kong",
+				"norway": "Waiver Norvegia",
+				"note": "Note",
+				"postit": "Post-It",
+				"postitError": "Un campo obbligatorio per questo prodotto non è stato compilato.",
+				"rubric": "rubrica"
+			},
+			"title": "Container and account"
+		},
+		"riskCalculation": {
+			"country": "Paese (PEP)",
+			"crsTax": "CRS Tax",
+			"institutionDetails": "Istituzione / Dettagli",
+			"linkWithListedCompany": "Legame con società quotate",
+			"linkWithListedCompanyDetails": "Dettagli",
+			"mediaPersonPeopleRiskOfImage": "Media Person, rischio di immagine",
+			"nameAndFirstName": "Cognome e nome",
+			"nationalityJurisdiction": {
+				"different": "La nazionalità non corrisponde alla giurisdizione",
+				"equal": "La nazionalità corrisponde alla giurisdizione",
+				"title": "Nazionalità / giurisdizione"
+			},
+			"occupation": {
+				"pers_occup_inst_01": "Capo dello stato, capo del governo, ministro, membro di un governo nazionale o della Commissione europea",
+				"pers_occup_inst_02": "Membro di un parlamento nazionale o europeo o organismo legislativo analogo",
+				"pers_occup_inst_03": "Membro di una corte suprema, tribunale costituzionale o altro tribunale superiore le cui decisioni possono essere impugnate solo in circostanze eccezionali.",
+				"pers_occup_inst_04": "Membro di una Corte dei conti o del Consiglio o del consiglio di direzione di una banca centrale",
+				"pers_occup_inst_05": "Ambasciatore, incaricato d'affari, console generale o professionale, alto ufficiale militare",
+				"pers_occup_inst_06": "Membri degli organi amministrativi, direttivi o di controllo delle imprese statali",
+				"pers_occup_inst_07": "altro",
+				"pers_occup_inst_08": "Funzione principale nelle organizzazioni intergovernative",
+				"pers_occup_inst_09": "Posizione di primo piano nelle federazioni sportive internazionali",
+				"pers_occup_inst_10": "Presidente o membro dell'organo di governo di un partito politico",
+				"pers_occup_inst_11": "Amministratori, vicedirettori o membri dell'organo di direzione o una funzione analoga in un'organizzazione internazionale",
+				"title": "Professione"
+			},
+			"positionInPublicOffice": {
+				"hasPublicMandate": "Esercizio di una funzione pubblica",
+				"linkedPublicMandate": "Legame con un pubblico ufficiale",
+				"noPublicMandate": "Nessun mandato pubblico",
+				"title": "Ufficio pubblico"
+			},
+			"taxableBasis": {
+				"limitedBasis": "Base limitata",
+				"no": "No",
+				"title": "Base imponibile",
+				"worldwideBasis": "Base mondiale"
+			},
+			"title": "Calcolo del rischio"
+		},
+		"specialProducts": {
+			"accountHolder": "Titolare del conto",
+			"debtor": "Debitore",
+			"debtorName": "Nome del debitore",
+			"deedPledge": "Atto di pegno",
+			"eLounge": "eLounge",
+			"eLoungePersonlist": "Selezionare persone",
+			"other": "Altro",
+			"pledge": "Pledger",
+			"taxReport": "Dichiarazione fiscale",
+			"taxReportTooltipLabel": "Se questa casella di controllo è selezionata, si emette un ordine permanente per la consegna annuale di una dichiarazione fiscale imponibile per il domicilio fiscale registrato. Ordinate una dichiarazione fiscale specifica per paese (o generica) che sia fatta su misura per le persone fisiche. Questo campo non viene utilizzato per la reportistica nazionale gratuita (FR, IT, ES). Se avete bisogno di rapporti fiscali per altri paesi, si prega di ordinarli separatamente.",
+			"taxReportType": "Tipo di dichiarazione fiscale",
+			"title": "Prodotti speciali"
+		},
+		"subHeader": {
+			"createdDate": "Data di Creazione",
+			"creator": "Creatore",
+			"relationshipManager": "Rappresentante del servizio clienti",
+			"status": "Stato",
+			"title": "Nuovo dossier"
+		},
+		"taskOverview": {
+			"columnLabel": {
+				"creation": "Creazione",
+				"dossierName": "Nome dossier",
+				"nr": "No.",
+				"products": "prodotti",
+				"responsible": "Responsabile",
+				"task": "Compito"
+			},
+			"taskName": {
+				"approve": "Approve",
+				"backToRM": "Back to RM",
+				"checkOnboardingTeam": "Check Onboarding Team",
+				"finalising": "Activate"
+			}
+		},
+		"taskTab": {
+			"avaloqQuicklinks": "Avaloq Quicklinks",
+			"contactForBp": "Contact for BP",
+			"docmPrint": "Stampa il punteggio AML",
+			"overviewBp": "Overview for BP"
+		}
+	},
+	"errorDialog": {
+		"COBNG001Message": "Richiesta entità non valida.",
+		"COBNG002Message": "Non è stato possibile stabilire una connessione con EDM.",
+		"COBNG002Title": "Errore EDM"
+	},
+	"pages": {
+		"accountHolderCreation": {
+			"title": "Creare il titolare del conto"
+		},
+		"businessRelationship": {
+			"title": "Relazione d'affari"
+		},
+		"dataGathering": {
+			"overView": "Sondaggio"
+		},
+		"documents": {
+			"addNewDocument": "Aggiungi un nuovo documento",
+			"chooseDocLanguageContent": "Si prega di selezionare la lingua in cui i documenti dovrebbero essere generati",
+			"chooseDocLanguageTitle": "Seleziona la lingua del documento",
+			"documentLanguage": "Lingua documenti",
+			"download": "Scaricare",
+			"generateAgain": "Rigenerare",
+			"generateAllDocuments": "Genera tutti i documenti",
+			"partialActivation": "Attivazione parziale",
+			"title": "Documenti",
+			"upload": "Caricare"
+		},
+		"dossierOnePager": {
+			"accountHolders": "Titolare del conto",
+			"activationArchival": "Attivazione e archiviazione",
+			"approval": "Approvazione",
+			"documents": "Documenti",
+			"powerOfAttorneys": "Procuratore",
+			"title": "Sondaggio"
+		},
+		"home": {
+			"naturalPerson": "Persona fisica",
+			"newDossier": "Nuovo dossier"
+		},
+		"personDuplicateCheck": {
+			"duplicateCheckOverlay": {
+				"active": "attivo",
+				"noDoubt": "Nessun duplicato"
+			},
+			"title": "persona"
+		},
+		"powerOfAttorneyCreation": {
+			"title": "Creare un procuratore"
+		}
+	},
+	"shared": {
+		"activateProspectsValidation": {
+			"message": "Si prega di eseguire l'attivazione parziale prima di inoltrare",
+			"title": "Attivazione parziale"
+		},
+		"annualTransactionVolumes": {
+			"0To75Transactions": "Da 0 a 75 transazioni",
+			"200to500Transactions": "Da 200 a 500 transazioni",
+			"75to200Transactions": "Da 75 a 200 transazioni",
+			"above500Transactions": "Oltre 500 transazioni"
+		},
+		"appTitle": "CIC",
+		"assetUnderManagerments": {
+			"1MTo5M": "Da 1M a 5M",
+			"500To1M": "Da 500 a 1 M",
+			"above5M": "oltre 5M",
+			"under500k": "sotto 500t"
+		},
+		"avaloq": {
+			"avaloqError": "Errore Avaloq",
+			"avaloqErrorMessage": "Impossibile connettersi ad Avaloq. Per favore riprova."
+		},
+		"button": {
+			"activate": "Attivare",
+			"adjustFields": "Personalizza i campi",
+			"approve": "Approvare",
+			"backToRM": "Torna al consulente",
+			"cancel": "Cancellare",
+			"continue": "Continuare",
+			"continueOverview": "Continuare alla panoramica",
+			"decline": "Rifiutare",
+			"discard": "Scartare",
+			"finish": "Completo",
+			"forwardToOnBoardingTeam": "Inoltra alla squadra di onboarding",
+			"next": "Prossimo",
+			"ok": "Ok",
+			"save": "Salvare"
+		},
+		"calculatedRiskCategories": {
+			"riskLevel1": "Livello di rischio 1",
+			"riskLevel2": "Livello di rischio 2",
+			"riskLevel3": "Livello di rischio 3",
+			"riskLevel4": "Livello di rischio 4 (04)",
+			"riskLevel5": "Livello di rischio 5 (05)"
+		},
+		"caseId": {
+			"cleverCircles": "CleverCircles",
+			"economicEntity": "Entità economica",
+			"entityClient": "Entity Client",
+			"jointEntityClient": "Conto congiunto",
+			"legalPerson": "Persona giuridica",
+			"naturalPerson": "Persona fisica",
+			"sP3/FZ": "V3 / FZ"
+		},
+		"confirmDuplicateCheck": {
+			"message": "Vuoi sovrascrivere i dati esistenti (sì = sovrascrivi i dati, no = collega solo con la persona esistente)?"
+		},
+		"contactModes": {
+			"acquisitionByBank": "Acquisizione tramite banca",
+			"advertisingInGeneral": "Pubblicità in generale (PR, pubblicità, ecc.)",
+			"advertisingOnline": "Pubblicità online",
+			"agence": "Agence / Caisse Crédit Mutuel",
+			"agent": "Agente / intermediario / EVV",
+			"changeOfAccount": "Cambia dall'account",
+			"cooperation": "Cooperazione",
+			"eventsAndSponsoring": "Eventi / Sponsorizzazione",
+			"oldClientRelation": "Ex cliente CIC CH RM",
+			"other": "altro",
+			"outsideOfGroup": "Gruppo di cavalli",
+			"recommendation": "raccomandazione",
+			"socialMedia": "Social media (linkedIn, Twitter, ecc.)"
+		},
+		"countries": {
+			"BE": "Belgio",
+			"CH": "Svizzera",
+			"DE": "Germania",
+			"FR": "Francia",
+			"IT": "Italia",
+			"SP": "Spagna",
+			"TN": "Tunisia",
+			"TR": "tacchino",
+			"UK": "Regno Unito",
+			"other": "Altri"
+		},
+		"countryManagementValidation": {
+			"message": "Questo dossier deve essere approvato dalla Country Management. Si prega di applicare per questo permesso.",
+			"title": "Necessaria approvazione"
+		},
+		"datetime": {
+			"at": "da",
+			"requestedOn": "richiesto per il"
+		},
+		"document": {
+			"description": {
+				"DOC01": "Condizioni Generali e\naltre condizioni",
+				"DOC05": "Contratto eLounge",
+				"DOC06": "Domanda per una carta Maestro",
+				"DOC12": "Condizioni eLounge",
+				"DOC13": "Condizioni per l'utilizzo della carta Maestro",
+				"DOC14": "Condizioni per l'uso della carta Maestro",
+				"DOC15": "Condizioni conto corrente per \"clienti privati\"",
+				"DOC16": "Condizioni conto privato",
+				"DOC17": "Condizioni conto di risparmio",
+				"DOC19": "Autovalutazione CRS e FATCA per persone fisiche",
+				"DOC20": "Esempio di calcolo indennità di distribuzione",
+				"DOC22": "Dichiarazione di adesione - persona fisica (Waiver 2)",
+				"DOC23": "Contratto generale di pegno",
+				"DOC26": "Geoblocking – Protegga la sua carta Maestro contro lo skimming",
+				"DOC27": "Dichiarazione di responsabilità - persona fisica (Waiver 0)",
+				"DOC28": "Dichiarazione del cliente di Hong Kong in merito alla divulgazione dell'identità",
+				"DOC30": "Contratto di base",
+				"DOC32": "Mandato relativo alla Tassa sulle Operazioni di Borsa effettuate dalla Banca CIC",
+				"DOC33": "Norvegia Dichiarazione del cliente riguardo alla rivelazione della sua identità",
+				"DOC35": "Rischi particolari nel commercio di valori mobiliari",
+				"DOC36": "Contratto fiduciario (per investimenti ripetuti)",
+				"DOC38": "Dow Jones Addizione",
+				"DOC39": "Accordo relativo alla strategia d'investimento per il mandato di consulenza",
+				"DOC40": "Accordo relativo alla strategia d'investimento del mandato di gestione",
+				"DOC41": "Mandato di consulenza",
+				"DOC42": "Contratto per l'apertura di una relazione di clientela con conto congiunto",
+				"DOC45": "Mandato di gestione",
+				"DOC48": "Procura",
+				"DOC52": "Dow Jones Risultato",
+				"DOC53": "Clausola aggiuntiva per i rapporti contrattuali cross boarder",
+				"DOC54": "Identificazione",
+				"DOC55": "Richiesta di carta Global Card Gold o Classic principale (senza garanzia)",
+				"DOC62": "Richiesta di carta Global Card Gold o Classic principale (con garanzia)",
+				"DOC64": "Documenti Onboarding supplementari",
+				"DOC65": "DOCM AML Scoring",
+				"DOC66": "Agente eLounge",
+				"DOC67": "Documenti supplementari GmeR",
+				"DOC68": "Cartoncino firme per persone fisiche",
+				"DOC999": "Vista consolidata"
+			},
+			"state": {
+				"CANCELLED": "Annullato",
+				"DOCUMENT_RECEIVED": "Documento ricevuto",
+				"OK_NOT_ARCHIVED": "Documento generato",
+				"PENDING_CUSTOMER": "Cliente in sospeso",
+				"PENDING_GENERATION": "Generazione in sospeso",
+				"UPLOAD_PENDING": "Carica in sospeso"
+			}
+		},
+		"documentsGenerationAndCheckStateValidation": {
+			"message": "Carica / scansiona tutti i documenti e imposta lo stato di controllo prima di inoltrare.",
+			"title": "Documenti"
+		},
+		"employeeStatus": {
+			"employee": "Dipendente",
+			"employeeChild": "Figlio di un impiegato",
+			"employeePartner": "Partner di un dipendente",
+			"employeeRetired": "Impiegato in pensione"
+		},
+		"financialSourceOfFunds": {
+			"cicProfessionalPensionFund": "Cassa pensione professionale",
+			"cicRetirementCapital": "Risparmio di pensione",
+			"companyDividendRevenue": "Reddito da dividendi",
+			"donation": "Donazione",
+			"heir": "Eredità",
+			"other": "Altro",
+			"professionalActivity": "Attività professionale",
+			"realEstateSale": "Vendita di beni immobili",
+			"rentRevenue": "Redditi da affitti",
+			"savings": "risparmi"
+		},
+		"genders": {
+			"female": "Femmina",
+			"male": "Maschio"
+		},
+		"geoblocking": {
+			"AFRICA": "Africa",
+			"CANADA": "Canada",
+			"EUROPE": "Europa",
+			"LATIN_AMERICA_AND_THE_CARIBBEAN": "America Latina e Caraibi",
+			"MIDDLE_EAST_ASIA_PACIFIC_AUSTRALIA": "Medio Oriente, Asia Pacifico, Australia",
+			"RUSSIA_AND_CIS": "Russia e CSI",
+			"SWITZERLAND_AND_LIECHTENSTEIN": "Svizzera e Liechtenstein",
+			"USA_AND_MEXICO": "USA e Messico"
+		},
+		"identificationStatuses": {
+			"incomplete": "Incompleto",
+			"missing": "Mancante",
+			"notRelevant": "Non pertinente",
+			"ok": "Ok",
+			"outOfDate": "Scaduto",
+			"placeHolder": "Stato di identificazione"
+		},
+		"identificationTypes": {
+			"drive_lic_ok": "Patente di guida",
+			"id_card_ok": "Carta d'identità",
+			"pass_ok": "Passaporto",
+			"res_cert_ok": "Conferma di residenza",
+			"res_permit_ok": "permesso di soggiorno"
+		},
+		"jointAccountTypes": {
+			"jointAccountAnd": "Conto collettivo (e)",
+			"jointAccountAndOr": "Conto congiunto (e / o)"
+		},
+		"kindOfBanking": {
+			"privateBanking": "Private Banking",
+			"retailBanking": "Retail Banking"
+		},
+		"label": {
+			"accountHolder": "Titolare del conto"
+		},
+		"languages": {
+			"english": "Inglese",
+			"french": "Francese",
+			"german": "Tedesco",
+			"italian": "Italiano"
+		},
+		"login": {
+			"login": "Login",
+			"password": "password",
+			"username": "Nome utente"
+		},
+		"mailingInstructionMediums": {
+			"electronical": "Elettronico",
+			"holdmail": "tenere la posta",
+			"postal": "Posta"
+		},
+		"mandatoryFieldValidation": {
+			"message": "Si prega di compilare tutti i campi obbligatori",
+			"title": "Obbligatorio"
+		},
+		"maritalStatus": {
+			"civil": "Unione registrata",
+			"coresident": "Co-resident",
+			"divorced": "Divorziato",
+			"married": "Sposato",
+			"single": "Celibe",
+			"widowed": "Vedovo"
+		},
+		"occupation": {
+			"accountant": "Contabile",
+			"advertising": "Pubblicità",
+			"antiqueDeal": "Antiquariato venditore",
+			"architect": "Architetto",
+			"artGaller": "Art gallery",
+			"artist": "Artista o arte e moda",
+			"auditor": "Auditor",
+			"banking": "Banche e assicurazioni",
+			"building": "Costruzione",
+			"casino": "Casinò",
+			"changeAndMoneyGame": "Gioco d'azzardo e denaro",
+			"consultant": "Consulente",
+			"craftsman": "Artigiano",
+			"diamondDealer": "Commercianti di diamanti",
+			"diplomat": "Diplomatico",
+			"doctor": "Medico",
+			"domicilitaryAgent": "Domiciliary agent",
+			"drinkAndTobaccoShop": "Bebite e tabaccheria",
+			"elecityGeneration": "Produzione di energia",
+			"engineer": "Ingegnere / computer scientist",
+			"estateAgent": "Agente immobiliare",
+			"farmer": "Contadino",
+			"garageOwnerAndCarDealer": "Proprietario de garage e rivenditore di auto",
+			"govermentEmployee": "Dipendente del governo",
+			"gunsmith": "Crafter",
+			"housewife": "Casalinga",
+			"importExportCompanies": "Aziende di importazione / esportazione",
+			"industry": "Industria",
+			"industryCleaningBusiness": "Industria della pulizia industriale",
+			"itAndTelecomunications": "It e telecomunicazioni",
+			"jewellery": "Gioielliere",
+			"journalist": "Giornalista",
+			"judge": "Giudice",
+			"jurist": "Avvocato",
+			"lawyer": "Avvocato",
+			"localBusiness": "Affari locali",
+			"oilGazNuclear": "Petrolio / gas / energia nucleare",
+			"other": "Altri - si prega di specificare",
+			"paramedical": "Attività medica",
+			"personMetalGemstoneCopperDealer": "Rivenditore di metalli preziosi / pietre preziose / rame",
+			"privateSecurityCaretaking": "Sicurezza privata / assistenza",
+			"realEstateAgent": "Agenti immobiliari",
+			"religousOrganization": "Organizzazione religiosa",
+			"remedationOrExtractiveActivities": "Rimedio o attività estrattive",
+			"restaurantOwner": "Proprietario di ristorante",
+			"retailling": "Vendita al dettaglio di massa",
+			"scrapMerchant": "Rottamaio",
+			"shipOwner": "Armatore",
+			"solicitor": "Avvocato",
+			"sport": "Atleta professionista",
+			"student": "Alievo / studente",
+			"teacher": "Insegnante",
+			"tradeRepresentive": "Sales Representative",
+			"travelAgent": "agenzia di viaggi",
+			"unEmployed": "disoccupato",
+			"worker": "operaio"
+		},
+		"onboardingCommitteeValidation": {
+			"message": "Questo fascicolo deve essere approvato dall'EÖK. Si prega di applicare per questo permesso",
+			"title": "Necessaria approvazione"
+		},
+		"operationalSourceOfFunds": {
+			"cashDeposit": "Deposito in contanti",
+			"cheque": "Assegno",
+			"couponCollection": "Coupon Collection",
+			"other": "altro",
+			"securitiesCashDeposit": "Valutazioni e deposito in contanti",
+			"securitiesDeposit": "Depositi di sicurezza",
+			"transfer": "Trasferimento"
+		},
+		"placeHolder": {
+			"addField": "Aggiungere un campo",
+			"pleaseChoose": "Prego selezionare",
+			"pleaseEnter": "Prego specificare",
+			"pleaseSelect": "Per selezionare",
+			"searchKeyword": "Parola chiave"
+		},
+		"privateAccounts": {
+			"justifiedEmployee": "Ragionevole - dipendente / familiare stretto",
+			"justtifiedPrivacy": "Ragionevole - Privacy",
+			"no": "No",
+			"unjustified": "Ingiustificatamente",
+			"yes": "Si"
+		},
+		"radioButton": {
+			"no": "No",
+			"yes": "Si"
+		},
+		"signatureDate": "Firma Data",
+		"sourceIncomes": {
+			"commissions": "Commissioni",
+			"incomeFromCommercialActivity": "Proventi da attività commerciali",
+			"incomeFromShares": "Proventi da azioni",
+			"investment": "Investimento",
+			"otherIncome": "Altre entrate",
+			"pension": "Pensione",
+			"rent": "Affitto",
+			"salary": "Salario",
+			"withoutIncome": "Senza entrate"
+		},
+		"taskReportTypes": {
+			"belgianFiscalReport": "Dichiarazione fiscale belga",
+			"frenchFiscalReport": "Dichiarazione fiscale francese",
+			"genericFiscalReport": "Dichiarazione fiscale generica",
+			"germanFiscalReport": "Dichiarazione fiscale tedesca",
+			"italianFiscalReport": "Dichiarazione fiscale italiana",
+			"spanishFiscalReport": "Dichiarazione fiscale spagnola",
+			"swissTaxStatement": "Dichiarazione fiscale svizzera",
+			"swissTaxStatementBaselLand": "Dichiarazione fiscale svizzera (Land Basilea)",
+			"ukFiscalReport": "Dichiarazione fiscale del Regno Unito"
+		},
+		"taxStatementTypes": {
+			"BP_TAX_STMT_RCVD_NO": "Dichiarazione dei redditi non ricevuta",
+			"BP_TAX_STMT_RCVD_YES": "Ricevi la dichiarazione dei redditi"
+		},
+		"typeOfIdentifications": {
+			"bank": "Banca",
+			"otherFSO": "altri professionisti del settore finanziario",
+			"psfAndBank": "PSF e Banca",
+			"remote": "Remoto",
+			"uncertifiedPartner": "Partner non certificato e altro istituto finanziario"
+		},
+		"usPerson": {
+			"not_us_per": "Non sono un cittadino statunitense e non un residente negli Stati Uniti.",
+			"us_per": "Sono un cittadino statunitense e / o residente negli Stati Uniti."
+		},
+		"validation": {
+			"deletingError": "Eliminazione dell'errore",
+			"taskError": "Errore di operazione"
+		},
+		"warningMessageBox": {
+			"coAddr": {
+				"message": "Per la casella postale o gli indirizzi c / o è richiesta una conferma di residenza.",
+				"title": "Avviso conferma residenza"
+			},
+			"contactMode": {
+				"message": "L'acquisto tramite banca non è consentito ai clienti stranieri.",
+				"title": "Tipo di contatto di avviso"
+			},
+			"container": {
+				"message": "Si prega di controllare la lista master PBI, se questo prodotto è adatto per questo paese di domicilio.",
+				"title": "Avvertimento Container"
+			},
+			"poBox": {
+				"message": "Per la casella postale o gli indirizzi c / o è richiesta una conferma di residenza.",
+				"title": "Avviso conferma residenza"
+			},
+			"saveBeforeExit": {
+				"message": "Hai modifiche non salvate. Vuoi scartare o salvare questo?",
+				"title": "Modifiche"
+			}
+		},
+		"worldCheckRules": {
+			"case01": "No Hit",
+			"case02": "Hit"
+		}
+	},
+	"validationMessages": {
+		"activateAgain": "I dati nel dossier sono stati modificati. Si prega di eseguire nuovamente l'attivazione parziale in Avaloq.",
+		"approvalValidationMessage": "Non sono stati compilati tutti i campi per l'approvazione, per favore modificali.",
+		"boardMemberCheckAgain": "I dati nel dossier sono stati modificati. Si prega di applicare nuovamente per l'approvazione GL.",
+		"ctryManagerCheckAgain": "I dati nel dossier sono stati modificati. Si prega di applicare nuovamente per l'approvazione della gestione nazionale.",
+		"dataChanged": "Dati modificati",
+		"doDuplicateAgain": "I dati nel dossier sono stati modificati. Si prega di controllare nuovamente i duplicati.",
+		"eokCheckAgain": "I dati nel dossier sono stati modificati. Si prega di applicare nuovamente per l'approvazione EÖK.",
+		"error": "Errore",
+		"fileNameInvalid": "Il nome file deve contenere solo i seguenti caratteri (senza distinzione tra maiuscole e minuscole): A-Z, 0-9, Ä, Ü, Ö, È, É, Ê",
+		"fileNotSupported": "Il tipo di file non è supportato",
+		"partialActivationRequired": "IT_Please do the partial activation before generating documents.",
+		"productMaximumNumReached": "Il numero massimo di questo prodotto è stato raggiunto. Si prega di scegliere un prodotto diverso o una valuta diversa",
+		"relationshipManagerRequired": "IT_Please select a relationship manager before generating any documents.",
+		"required": "Campi obbligatori",
+		"sizeExceed": "Supera la dimensione massima. 5 MB"
+	}
+}
