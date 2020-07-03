@@ -1,5 +1,5 @@
 list = [6, 7, 5, 10, 8, 9]
-for i in range(len(list)):
+for i in range(len(list)-1):
     for j in range(len(list) -1):
         if list[j] < list[j+1]:
             temp = list[j+1]
@@ -7,6 +7,7 @@ for i in range(len(list)):
             list[j] = temp
 
 print(list)
+
 
 '''
 4.Nhập vào độ dài 3 cạnh a, b, c của 1 tam giác
