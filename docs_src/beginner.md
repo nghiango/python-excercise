@@ -124,3 +124,37 @@ Folder beginner is the collection of mine about the exercises for beginner to ma
             ```
             The result is 70
             ```
+- [ ] Exercise 19
+    * Path: beginner/
+    * Given a range of 10 numbers. Iterate from the start to the end number and print sum of the current number and previous number.
+    * Ex:
+    ```
+    Printing current and previous number sum in a given range(10)
+    The current number is 0 and the previous number is 0 => sum = 0 
+    The current number is 1 and the previous number is 0 => sum = 1 
+    The current number is 2 and the previous number is 1 => sum = 3 
+    The current number is 3 and the previous number is 2 => sum = 5 
+    The current number is 4 and the previous number is 3 => sum = 7 
+    The current number is 5 and the previous number is 4 => sum = 9 
+    The current number is 6 and the previous number is 5 => sum = 11 
+    The current number is 7 and the previous number is 6 => sum = 13 
+    The current number is 8 and the previous number is 7 => sum = 15 
+    The current number is 9 and the previous number is 8 => sum = 17 
+    ```
+- [ ] Exercise 20
+    * Path: beginner/
+    * Given a string, display only those characters which are present at an index number.
+    * Ex:
+        * Given
+        ```
+        myString = 'pynactive'
+        ```
+        * Expect
+        ```
+        Original String is pynactive
+        Printing only even index:
+        p
+        n
+        t
+        v
+        ```
