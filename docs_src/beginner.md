@@ -74,7 +74,7 @@ Folder beginner is the collection of mine about the exercises for beginner to ma
         * Weak: the others
 
 - [ ] Exercise 12
-    * Path: beginner/
+    * Path: beginner/calculate_sum_base_on_formular
     * Write a program that allows users enter a number, then calcualte sum base on this number and follow below rule:
         * $1 + 2 + 3 + ... + n$
         * $1^3 + 2^3 + 3^3 + ... + n^3$
@@ -82,12 +82,12 @@ Folder beginner is the collection of mine about the exercises for beginner to ma
         * $1 + \frac 1 {1*2} + \frac 1 {2*3} + \frac 1 {3*4} + ... + \frac 1 {(n-1)*n}$
         * $1! + 2! + 3! + ... + n!$
 
-- [ ] Exercise 13
-    * Path: beginner/
+- [x] Exercise 13
+    * Path: beginner/ex13_sum_below_number
     * Write a program that allows user enter a number, then calcualte sum all numbers which are smaller than given number and divisible by 4 but not 5.
 
 - [ ] Exercise 14
-    * Path: beginner/
+    * Path: beginner/ex14_check_a_prime
     * Write a program that allows user enter a number, then check the given number is a prime number or not.
 
 - [ ] Exercise 15
