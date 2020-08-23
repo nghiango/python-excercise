@@ -94,17 +94,17 @@ Folder beginner is the collection of mine about the exercises for beginner to ma
     * Path: beginner/
     * Write a program that allows user enter a number, then find a biggest prime number, but smaller than given number.
 
-- [ ] Exercise 16
-    * Path: beginner/
+- [x] Exercise 16
+    * Path: beginner/deca_to_binary
     * Write a program that allows user converts from decimal base to binit or binit to decimal base.
 
-- [ ] Exercise 17
-    * Path: beginner/
+- [x] Exercise 17
+    * Path: beginner/ex_17_how_many_sheets_advance
     * We have many values of money such as 50.000, 20.000, 10.000, 5.000, 2.000, 1.000. Write a program allows user enters an amount of money he/she has, then the program should let he/she knows how many sheets of each value that sum of all is the given amount. The program needs to give all solutions can be happened, and then decide which solution is the best.
 
 - [ ] Exercise 18
     * Path: beginner/
-    * Given a two integer numbers return their product and  if the product is greater than 1000, then return their sum
+    * Given a two integer numbers return their product and  if the product is smaller than 1000, otherwise return their sum
     * Ex: 
         * Given
             ```
