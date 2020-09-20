@@ -158,3 +158,80 @@ Folder beginner is the collection of mine about the exercises for beginner to ma
         t
         v
         ```
+
+- [ ] Exercise 21
+    * Path: beginer/
+    * Given a list of colors, display the first and the last colors from the given list.
+    * Ex: 
+        * Given
+        ```
+        color_list = ["Red", "Green", "White", "Black"]
+        ```
+        * Expect
+        ```
+        Red
+        Black
+        ```
+
+- [ ] Exercise 22
+    * Path: beginer/
+    * Write a program that allows users to enter an integer number (n), then computes the value of n + nn + nnn.
+    * Ex:
+        * Given
+        ```
+        n = 5
+        ``` 
+        * Expected
+        ```
+        Result: 615
+        ```
+
+- [ ] Exercise 23
+    * Path: beginer/
+    * Write a program that allows users to enter three numbers, then calculate sum of them, if three given number are equal then return thrice of their sum.
+    * Ex1:
+        * Given
+        ```
+        number1 = 1
+        number2 = 2
+        number3 = 3
+        ```
+        * Expected
+        ```
+        Result: 6
+        ```
+    * Ex2:
+        * Given
+        ```
+        number1 = 3
+        number2 = 3
+        number3 = 3
+        ```
+        * Expected
+        ```
+        Result: 27
+        ```
+- [ ] Exercise 24
+    * Path: beginer/
+    * Given a list of number, then concatenate all elements in a list into a string and print it.
+    * Ex:
+        * Given
+        ```
+        my_list = [1, 2, 33, 4]
+        ```
+        * Expected
+        ```
+        Result: 12334
+        ```
+- [ ] Exercise 25
+    * Path: beginer/
+    * Write a program that allows users enter a number(positive number), then caculate sum from 1 to the given number.
+    * Ex:
+        * Given
+        ```
+        number = 8
+        ```
+        * Expected
+        ```
+        Result: 36
+        ```
