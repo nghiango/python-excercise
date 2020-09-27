@@ -235,3 +235,101 @@ Folder beginner is the collection of mine about the exercises for beginner to ma
         ```
         Result: 36
         ```
+- [ ] Exercise 26
+    * Path: beginer/
+    * Write a program that allows users enter a list of numbers, and wait user enter another number, then count the appear of number in the given list.
+    * Ex1:
+        * Given
+        ```
+        given_list = [1, 2, 3, 1, 4, 5, 3, 1]
+        number = 1
+        ```
+        * Expected
+        ```
+        Result: 3
+        ```
+    * Ex2:
+        * Given
+        ```
+        given_list = [1, 2, 3, 1, 4, 5, 3, 1]
+        number = 3
+        ```
+        * Expected
+        ```
+        Result: 2
+        ```
+- [ ] Exercise 27
+    * Path: beginer/
+    * Write a program that allows users enter list of numbers(include negative and positive), then count the positive number in the given list and calculate sum of all positive number.
+    * Ex:
+        * Given
+        ```
+        given_list = [1, -2, 3, 1, 0, -1, 5, 6]
+        ```
+        * Expected
+        ```
+        Amount positive: 5
+        Sum: 16
+        ```
+- [ ] Exercise 28
+    * Path: beginer/
+    * Write a program that allows users enter list of numbers, then count the prime number in the given list and calculate sum of all numbers.
+    * Ex:
+        * Given
+        ```
+        given_list = [1, 2, 3, 4, 7, 8, 9]
+        ```
+        * Expected
+        ```
+        Amount prime numbers: 4
+        Sum: 13
+        ```
+- [ ] Exercise 29
+    * Path: beginer/
+    * Write a program that combine two list of numbers with the same length, but each element of the new list come from the sum of the same index of two old list.
+    * Ex:
+        * Given
+        ```
+        given_list = [1, 2, 3, 4, 5, 6, 7]
+        given_list2 = [9, 10, 17, 6, 25, 23, 34]
+        ```
+        * Expected
+        ```
+        new_list = [10, 12, 20, 10, 30, 29, 41]
+        ```
+- [ ] Exercise 30
+    * Path: beginer/
+    * Write a program that sort a list ascending, descending, or none sort follow a number that user enter. Follow detail in below:
+        * If number is 0, print none sort list
+        * If number is negative number, print the sorting list with descending method.
+        * If number is positive number, print the sorting list with ascending method.
+    * Ex1:
+        * Given
+        ```
+        given_list = [1, 3, 2, 8, 7, 6, 4]
+        number = 0
+        ```
+        * Expected
+        ```
+        result_list = [1, 3, 2, 8, 7, 6, 4]
+        ```
+    * Ex2:
+        * Given
+        ```
+        given_list = [1, 3, 2, 8, 7, 6, 4]
+        number = 1
+        ```
+        * Expected
+        ```
+        result_list = [1, 2, 3, 4, 6, 7, 8]
+        ```
+    * Ex3:
+        * Given
+        ```
+        given_list = [1, 3, 2, 8, 7, 6, 4]
+        number = -1
+        ```
+        * Expected
+        ```
+        result_list = [8, 7, 6, 4, 3, 2, 1]
+        ```
