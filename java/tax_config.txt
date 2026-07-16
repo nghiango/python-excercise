@@ -1,0 +1,11 @@
+# Tax Configuration File
+# Format: upper_limit:rate
+# Example: 5:0.05 means income up to 5M is taxed at 5%
+
+5:0.05
+10:0.10
+18:0.15
+32:0.20
+52:0.25
+80:0.30
+999999:0.35
